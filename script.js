@@ -31,6 +31,7 @@ Bbtn.addEventListener("click",()=>{
 
 equal.addEventListener("click", ()=>{
     input.value = parseFloat((eval(input.value)).toFixed(3))
+    if(input.value == parseFloat(153)){ alert("Tanima Love Jeet!!!")}
 })
 // No=()=>{
 //     
@@ -38,4 +39,5 @@ equal.addEventListener("click", ()=>{
 
 No.addEventListener("click", ()=>{
     alert("Sorry! I Don't No What Should I Do\n So Don't Press!!! D");
+
 })
